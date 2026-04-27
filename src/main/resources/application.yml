@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  elasticsearch:
+    uris: http://localhost:9200
+
+search:
+  jwt:
+    secret: Y2hhbmdlLXRoaXMtdG8tYS1sb25nLXNlY3VyZS1rZXktaW4tcHJvZHVjdGlvbi1lbnZpcm9ubWVudA==
+    expiration-ms: 3600000
+  auth:
+    users:
+      admin: admin123
+      user1: password1
